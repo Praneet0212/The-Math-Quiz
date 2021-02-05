@@ -8,6 +8,10 @@
     margin-top: 10px;
 }
 
+body{
+    font-family: Comic Sans MS;
+}
+
 .welcome{
     font-family: Comic Sans MS;
 }
@@ -31,3 +35,22 @@ input[type=text] {
     border-bottom: 2px solid grey;
     width:60%;
   }
+
+  #output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#number1_input, #number2_input
+{
+	width: 60%;
+}
+#number1_input_display, #number2_input_display
+{
+	letter-spacing: 5px;
+}
